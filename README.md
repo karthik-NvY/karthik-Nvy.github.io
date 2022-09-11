@@ -1,2 +1,3 @@
 # karthik-Nvy.github.io
-[Link SolarExp](/index.html)
+Visit SolarEXP
+[SolarExp](/index.html)
