@@ -1,0 +1,118 @@
+.back{
+    position:fixed;
+    height:100%;
+    width:100%;
+    z-index:-2;
+}
+
+.page_head {
+    position:fixed;
+    top:0;
+    width:100%;
+    height:5rem;
+    background-color:#020e78;
+    background-image:linear-gradient(90deg, rgba(35, 1, 143,1),rgba(0, 0, 0,1));
+    border-bottom:1px solid grey; /* height + border = 5 rem*/
+}
+
+.solar_view_div{
+    height:4.5rem;
+    width:19rem ;
+    margin-left:0.5rem;
+    margin-top:0rem;
+}
+
+.solar_view_text{
+    font-size:3.5rem;
+    color:#bdb549;
+    padding-left:0.25rem;
+    padding-bottom:0px;
+    border-left:0.2rem solid;
+    margin-left:0.7rem;
+    margin-top:1rem;
+    transition:color 0.75s;
+}
+.solar_view_text:hover{
+    color:#ffffff;
+    text-decoration:none;
+}
+
+.search_div{
+    position:absolute;
+    height:4.5rem;
+    top:0.5rem;
+    width:18rem;
+    right:1%;
+}
+
+.search_box{
+    border-radius:1rem;
+    background-color:#756e0d;
+    border:0.15rem solid;
+    border-color:#633200;
+    margin-top:1rem;
+    width:14rem;
+    height:1.7rem;
+    transition:background-color 0.75s;
+}
+
+.search_box:hover{
+    background-color:#ffffff;
+    text-decoration:none;
+}
+
+.search_icon_div{
+    position:absolute;
+    width:3rem;
+    height:3rem;
+    top:0.5rem;
+    margin-left:15rem;
+}
+.search_button{
+    margin-top:0.25rem;
+    margin-left:0.25rem;
+    width:2.5rem;
+    height:2.5rem;
+    border-radius:50%;
+}
+.search_sun_jpg{
+    width:24px;
+    height:24px;
+}
+::placeholder{
+    color:black;
+}
+
+.planet_img{
+    position:fixed;
+    margin-top:10rem;
+    margin-left:4rem;
+}
+
+.tab_div{
+    position:fixed;
+    margin-top:29rem;
+    margin-left:2rem;
+}
+
+.left{
+ width:10rem;
+ height:2rem;
+ padding:0.5rem;
+ color:white;
+}
+
+.right{
+    padding:0.5rem;
+    text-align:right;
+    color:#0000ff;
+}
+
+.text_div{
+    position:fixed;
+    height:30rem;
+    width:50rem;
+    margin-top:10rem;
+    margin-left:30rem;
+    color:white;
+}

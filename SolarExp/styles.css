@@ -1,0 +1,220 @@
+.back{
+    position:fixed;
+    height:100%;
+    width:100%;
+    z-index:-2;  /* Lowest z-index */
+}
+.page_head {
+    position:fixed;
+    top:0;
+    width:100%;
+    height:5rem;
+    background-color:#020e78;
+    background-image:linear-gradient(90deg, rgba(35, 1, 143,1),rgba(0, 0, 0,1));
+    border-bottom:1px solid grey; /* height + border = 5 rem*/
+}
+
+.solar_view_div{
+    height:4.5rem;
+    width:19rem ;
+    margin-left:0.5rem;
+    margin-top:0rem;
+}
+
+.solar_view_text{
+    font-size:3.5rem;
+    color:#bdb549;
+    padding-left:0.25rem;
+    padding-bottom:0px;
+    border-left:0.2rem solid;
+    margin-left:0.7rem;
+    margin-top:1rem;
+    transition:color 0.75s;
+}
+.solar_view_text:hover{
+    color:#ffffff;
+    text-decoration:none;
+}
+
+.search_div{
+    position:absolute;
+    height:4.5rem;
+    top:0.5rem;
+    width:18rem;
+    right:1%;
+}
+
+.search_box{
+    border-radius:1rem;
+    background-color:#619df3;
+    border:0.15rem solid;
+    border-color:#633200;
+    margin-top:1rem;
+    width:14rem;
+    height:1.7rem;
+    transition:background-color 0.75s;
+}
+
+.search_box:hover{
+    background-color:#ffffff;
+    text-decoration:none;
+}
+
+.search_icon_div{
+    position:absolute;
+    width:3rem;
+    height:3rem;
+    top:0.5rem;
+    margin-left:15rem;
+}
+.search_button{
+    margin-top:0.25rem;
+    margin-left:0.25rem;
+    width:2.5rem;
+    height:2.5rem;
+    border-radius:50%;
+}
+.search_sun_jpg{
+    width:24px;
+    height:24px;
+}
+::placeholder{
+    color:black;
+}
+
+.sun{
+    width:10rem;
+    height:18rem;
+    position:fixed;
+    margin-top:20rem;
+}
+
+
+.neptune{
+    width:10rem;
+    height:10rem;
+    position:fixed;
+    margin-top:30rem;
+    margin-left:80rem;
+}
+
+.uranus{
+    width:10rem;
+    height:10rem;
+    position:fixed;
+    margin-top:10rem;
+    margin-left:70rem;
+}
+
+
+.saturn{
+    width:14rem;
+    height:14rem;
+    position:fixed;
+    margin-top:22rem;
+    margin-left:55rem;
+}
+
+.jupiter{
+    width:15rem;
+    height:15rem;
+    position:fixed;
+    margin-top:35rem;
+    margin-left:36rem;
+}
+
+.mars{
+    width:10rem;
+    height:10rem;
+    position:fixed;
+    margin-top:10rem;
+    margin-left:30rem;
+}
+
+.earth{
+    width:10rem;
+    height:10rem;
+    position:fixed;
+    margin-top:30rem;
+    margin-left:20rem;
+}
+
+.venus{
+    width:10rem;
+    height:10rem;
+    position:fixed;
+    margin-top:20rem;
+    margin-left:15rem;
+}
+
+.mercury{
+    width:5rem;
+    height:5rem;
+    position:fixed;
+    margin-top:12rem;
+    margin-left:2rem;
+}
+
+
+
+.cns{
+    position:fixed;
+    top:5rem;
+    z-index:-1;
+}
+
+
+
+
+
+/*
+.log_sign{
+    position:relative;
+    top:0px;
+    left:45rem;
+    padding:0.5rem 1rem;
+    background-color:#e8d4bc;
+    font-size:1.2rem;
+    color:#000000;
+    margin-left:20px;
+    text-align:center;
+    border-radius:0.5rem;
+    border-right:4px solid;
+    border-bottom:4px solid;
+    border-color:#b6241d;
+    background-image:linear-gradient(to left, rgba(182,36,29,1), rgba(255,255,255,1));
+    background-position:left bottom;
+    background-size:400% 100%;
+    transition:all 1s;
+}
+
+.log_sign:hover{
+    color:inherit;
+    text-decoration:none;
+    background-color:#d1bea8;
+    background-position:right bottom;
+}
+
+
+.trending_anime{
+    margin-left: 2rem;
+    margin-right:25rem;
+    border-left:30px;
+    border-right:27rem;
+}
+
+background-color:#ffffff;
+    border:2px solid;
+    border-color:#000000;
+    padding:0.1px;
+    margin-left:60rem;
+    margin-top:0rem;
+
+    button{
+    padding:0.2rem 2rem;
+    border-color:#3ba0ed;
+    border-radius:0.6rem;
+    margin-right:20px;
+    margin-top:0px;
+    background-color:#3ba0ed;
+}
